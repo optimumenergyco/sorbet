@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'sorbet'
-  s.version     = '0.0.0'
+  s.version     = '0.5.5576'
   s.summary     = 'A Typechecker for Ruby'
   s.description = 'The main entrypoint for using Sorbet'
   s.authors     = ['Stripe']
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
     "source_code_uri" => "https://github.com/sorbet/sorbet"
   }
 
-  s.add_dependency 'sorbet-static', '0.0.0'
+  s.add_dependency 'sorbet-static', '0.5.5576'
 
   s.required_ruby_version = ['>= 2.3.0']
 
